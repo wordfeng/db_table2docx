@@ -4,18 +4,20 @@
 
 ![](pic/1.png)
 
-# 添加依赖
-```bash
-pip install -r requirements.txt
-```
+
 # 使用
 ```bash
+git clone https://github.com/wordfeng/db_table2docx.git
+cd db_table2docx
+pip3 install -r requirements.txt
+
 # -h host
 # -P port
 # -u root
 # -p password
 # -db databasename
 python3 main.py -h localhost -P 3306 -u root -p root -db databasename
+# docx默认在db_table2docx/output/
 ```
 # 特殊字号对应关系
 |字号	|磅值
