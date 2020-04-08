@@ -11,6 +11,7 @@
 ```bash
 git clone https://github.com/wordfeng/db_table2docx.git
 cd db_table2docx
+# python3.7+
 pip3 install -r requirements.txt
 
 # -h host
